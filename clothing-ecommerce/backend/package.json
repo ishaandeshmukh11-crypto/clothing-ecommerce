@@ -1,0 +1,30 @@
+{
+  "name": "clothing-store-backend",
+  "version": "1.0.0",
+  "description": "REST API for the clothing e-commerce store (retail + wholesale)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "vapid": "web-push generate-vapid-keys"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.0",
+    "razorpay": "^2.9.5",
+    "web-push": "^3.6.7"
+  }
+}
